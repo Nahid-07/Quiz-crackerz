@@ -28,15 +28,13 @@ const Blog = () => {
             </div>
             <div className='bg-slate-700 px-3 py-10 text-white font-medium text-lg rounded'>
                 <h2 className='text-2xl my-5'>
-                    What is the papouse of React router ?
+                    What do we do with useRef ?
                 </h2>
 
                 <p className='text-base'>
-                    React router is the the standard liabrary for routing.. It helps us to go one path to another path 
-                    without reload. React router has many benifits. Which make our code esier to optimize. 
-                    It enables the navigation among views of various components in a React Application, allows changing the browser URL.
-
-                    another way to say that ..React Router keeps our UI sync with the URL. It has a simple API with powerful features. With this feature we can make daynamic route.
+                    Using useRef we can access DOM element directly.
+                    useRef can be used to store local mutable value in a component. It doesn't participate in rerendering.
+                    The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated.
                 </p>
             </div>
             

@@ -11,7 +11,7 @@ const QuizTopic = ({quizTopic}) => {
             <div className='bg-slate-400 rounded-md flex justify-between items-center py-4 px-2 mt-3'>
                 <h2 className='text-xl font-semibold text-white'>{name}</h2>
                 <p className='text-yellow-50 font-semibold text-base'>
-                    total question : {total}
+                    Total question : {total}
                 </p>
                 <Link to={`/quiz/${id}`}>
                     <button className='border px-9 md:px-12 text-lg md:text-xl rounded-lg text-white  py-4 hover:bg-slate-700 duration-700'

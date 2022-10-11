@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Topics from './Components/Topics';
 import Statistics from './Components/Statistics';
-import Blog from './Blog';
+import Blog from './Components/Blog'
 import ErrorPage from './Components/ErrorPage';
 import Quizes from './Components/Quizes';
 
