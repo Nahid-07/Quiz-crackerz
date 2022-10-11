@@ -7,6 +7,7 @@ import {
   CartesianGrid,
   Tooltip,
   Area,
+  ResponsiveContainer
 } from "recharts";
 
 const Statistics = () => {
@@ -15,8 +16,10 @@ const Statistics = () => {
   console.log(data);
 
   return (
-    <div>
-      <AreaChart width={600} height={400} data={data}>
+    <div className="container mx-auto bg-gray-200 mt-24">
+      <div className="p-4  flex items-center justify-center">
+      <ResponsiveContainer width='100%' height={600}>
+      <AreaChart data={data}>
         <Area
           type="monotone"
           dataKey="total"
@@ -28,6 +31,8 @@ const Statistics = () => {
         <YAxis />
         <Tooltip></Tooltip>
       </AreaChart>
+      </ResponsiveContainer>
+      </div>
     </div>
   );
 };

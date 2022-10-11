@@ -2,7 +2,7 @@ import React from 'react';
 
 const Blog = () => {
     return (
-        <div className='grid md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-4 md:my-14'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-3 container mx-auto gap-4 md:my-14 bg-gray-200'>
             <div className='bg-slate-700 px-3 py-10 text-white font-medium text-lg rounded'>
                 <h2 className='text-2xl my-5'>
                     What is the papouse of React router ?
