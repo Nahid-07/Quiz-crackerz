@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className='bg-slate-400'>
-        <div className='px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 '>
+    <div className='bg-slate-800'>
+        <div className='px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 '>
       <div className='relative flex items-center justify-between text-xl'>
         <Link
           to='/'
@@ -14,7 +14,7 @@ const Header = () => {
           className='inline-flex items-center'
         >
           
-          <span className='ml-2 text-xl font-bold tracking-wide text-white'>
+          <span className='ml-2 text-3xl font-bold tracking-wide text-white'>
           QuizMania
           </span>
         </Link>
