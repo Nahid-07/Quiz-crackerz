@@ -6,7 +6,7 @@ import Image from './Image/bg.jpg'
 const Topics = () => {
   const topics = useLoaderData();
   // const {data} = topics
-  console.log(topics);
+  // console.log(topics);
   return (
     <div>
       <div

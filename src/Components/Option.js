@@ -5,7 +5,7 @@ const Option = ({option,rightOrWrongHandle}) => {
     return (
         <div onClick={()=>rightOrWrongHandle(option)} className='bg-slate-200 py-8 px-4 rounded-lg cursor-pointer'>
             <input type="radio" name='option' id={option}/>
-            <label htmlFor={option} className="ml-5 text-xl font-semibold text-slate-400">{option}</label>
+            <label htmlFor={option} className="ml-5 text-xl font-semibold text-slate-600">{option}</label>
         </div>
     );
 };
