@@ -4,7 +4,7 @@ import Option from "./Option";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
-const Quiz = ({ quizAndoption,index}) => {
+const Quiz = ({ quizAndoption,index,id}) => {
   // console.log(quizAndoption)
   const { correctAnswer, options, question } = quizAndoption;
   // console.log(options)
@@ -24,7 +24,7 @@ const Quiz = ({ quizAndoption,index}) => {
     <div className="bg-slate-500 mt-5 p-7 md:w-2/4 md:mx-auto rounded-lg">
       <div className="flex justify-between items-center">
         <h3 className="text-2xl text-white font-semibold">{index+1}. </h3>
-        <h1 className="text-2xl mb-6 text-white text-center">{question}</h1>
+        <h1 className="text-2xl mb-6 text-white text-center">{question.slice(3,-4)}</h1>
         <button onClick={correctToast}>
           <FontAwesomeIcon
             className="text-2xl text-slate-100"
@@ -37,7 +37,7 @@ const Quiz = ({ quizAndoption,index}) => {
         {options.map((option,index) => (
           <Option
             option={option} key={index} index={index}
-            rightOrWrongHandle={rightOrWrongHandle}
+            rightOrWrongHandle={rightOrWrongHandle} id={id}
           ></Option>
         ))}
       </div>
