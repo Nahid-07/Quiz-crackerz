@@ -1,6 +1,6 @@
 # Project name : QuizMania
 
-Live Link : [Create React App](https://github.com/facebook/create-react-app).
+Live Link : [QuizMania](https://quizmania-07.netlify.app/).
 
 # project feature
 * Participating quiz
