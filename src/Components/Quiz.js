@@ -36,7 +36,7 @@ const Quiz = ({ quizAndoption,index}) => {
       <div className="grid md:grid-cols-2 gap-4">
         {options.map((option,index) => (
           <Option
-            option={option} key={index}
+            option={option} key={index} index={index}
             rightOrWrongHandle={rightOrWrongHandle}
           ></Option>
         ))}
