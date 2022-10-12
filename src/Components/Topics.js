@@ -2,7 +2,6 @@ import React from "react";
 import { useLoaderData } from "react-router-dom";
 import QuizTopic from "./QuizTopic";
 import Image from "./Image/bgg.jpg";
-import Video from "./Video/video-2.mp4";
 import Footer from "./Footer";
 
 const Topics = () => {
